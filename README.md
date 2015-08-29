@@ -9,11 +9,11 @@
 ######        The only thing that really needs modified in 'ansible.cfg' is 'remote_user'
 
 ```bash
-  $ vi group_vars/all.yml
+  vi group_vars/all.yml
 
-  $ vi ansible.cfg
+  vi ansible.cfg
 
-      - remote_user = ubuntu
+    - remote_user = ubuntu
 ```
 #####Step 2:
 #####Add your Ansible .pub key to your 'provision.yml' file.
