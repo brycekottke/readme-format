@@ -8,7 +8,7 @@
 ######NOTE: Just about everything in 'group_vars/all.yml' is custom, and will need modified.
 ######        The only thing that really needs modified in 'ansible.cfg' is 'remote_user'
 
-```
+```bash
   $ vi group_vars/all.yml
 
   $ vi ansible.cfg
